@@ -1,10 +1,11 @@
-const OPERATIONS = ['σ','∏', '∪','∩','−','X','⁁','()'];
+const OPERATIONS = ['σ','∏', '∪','∩','−','X','∞','()'];
 
 const userInput = document.getElementById("user-input");
 const resultInput = document.getElementById("result-input");
 const errorSection = document.getElementById("error-messages");
 const errorInput = document.getElementById("errors__input");
 const url = "https://algebradb.fly.dev/"
+const urlLocal = "http://localhost:8080/"
 
 document.body.addEventListener('keydown', (event) => {
     if(event.key == 'Enter') {

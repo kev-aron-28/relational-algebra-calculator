@@ -8,7 +8,7 @@ public enum AlgebraOperators {
     DIFF('−'),
     CARTESIAN('X'),
     RENAME('ρ'),
-    REUNION('⁁');
+    REUNION('∞');
 
     private final char symbol;
     

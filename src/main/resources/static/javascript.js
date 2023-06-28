@@ -4,7 +4,7 @@ const userInput = document.getElementById("user-input");
 const resultInput = document.getElementById("result-input");
 const errorSection = document.getElementById("error-messages");
 const errorInput = document.getElementById("errors__input");
-const url = "http://localhost:8090/"
+const url = "https://algebradb.fly.dev/"
 
 document.body.addEventListener('keydown', (event) => {
     if(event.key == 'Enter') {
